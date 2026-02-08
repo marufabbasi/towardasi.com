@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges - ASI Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="/" style="text-decoration: none; display: flex; align-items: baseline; gap: 0.5rem;">
+                        <span class="logo-text">ASI</span>
+                        <span class="logo-subtitle">LAB</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="challenges.html">Challenges</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="challenges-hero">
+            <div class="container">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Research Challenges</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Current Challenges</span>
+                    <span class="hero-subtitle">On the Path to ASI</span>
+                </h1>
+                <p class="hero-description">
+                    The path to Artificial Super Intelligence is paved with fundamental challenges 
+                    that require breakthrough innovations across multiple domains.
+                </p>
+            </div>
+        </section>
+
+        <section id="challenges" class="challenges-section">
+            <div class="container">
+                <div class="challenges-grid">
+                    <div class="challenge-card" data-index="0">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z"></path>
+                                <path d="M2 17L12 22L22 17"></path>
+                                <path d="M2 12L12 17L22 12"></path>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">01</div>
+                        <h3 class="challenge-title">Lack of Human-like Reasoning</h3>
+                        <p class="challenge-description">
+                            Current AI excels at pattern recognition but lacks deep reasoning and abstract 
+                            problem-solving capabilities that transfer across domains.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Reasoning</span>
+                            <span class="tag">Generalization</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="1">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6V12L16 14"></path>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">02</div>
+                        <h3 class="challenge-title">Common Sense Understanding</h3>
+                        <p class="challenge-description">
+                            Machines struggle to build the implicit contextual and real-world knowledge 
+                            humans use effortlessly.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Context</span>
+                            <span class="tag">Knowledge</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="2">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">03</div>
+                        <h3 class="challenge-title">Multisensory Learning</h3>
+                        <p class="challenge-description">
+                            Humans learn from video, sound, and physical interaction; AI largely learns from text. 
+                            Bridging this "phygital" gap is a key challenge.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Multimodal</span>
+                            <span class="tag">Embodiment</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="3">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">04</div>
+                        <h3 class="challenge-title">Scalability & Resources</h3>
+                        <p class="challenge-description">
+                            Training extremely large models requires massive compute, energy, and data—raising 
+                            cost and environmental barriers.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Efficiency</span>
+                            <span class="tag">Sustainability</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="4">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z"></path>
+                                <path d="M2 17L12 22L22 17"></path>
+                                <path d="M2 12L12 17L22 12"></path>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">05</div>
+                        <h3 class="challenge-title">Architecture Paradigms</h3>
+                        <p class="challenge-description">
+                            It's unclear whether scaling existing methods (e.g., transformers) will ever yield AGI 
+                            or if entirely new architectures are required.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Architecture</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="5">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">06</div>
+                        <h3 class="challenge-title">AGI Metrics & Benchmarks</h3>
+                        <p class="challenge-description">
+                            There's no agreed-upon empirical definition or benchmark for what constitutes AGI, 
+                            making research harder to measure.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">Metrics</span>
+                            <span class="tag">Evaluation</span>
+                        </div>
+                    </div>
+
+                    <div class="challenge-card" data-index="6">
+                        <div class="challenge-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            </svg>
+                        </div>
+                        <div class="challenge-number">07</div>
+                        <h3 class="challenge-title">The General Intelligence Leap</h3>
+                        <p class="challenge-description">
+                            Moving beyond specialized skills to flexible, broad cognition remains a fundamental 
+                            theoretical barrier.
+                        </p>
+                        <div class="challenge-tags">
+                            <span class="tag">AGI</span>
+                            <span class="tag">Cognition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html" style="text-decoration: none; display: flex; align-items: baseline; gap: 0.5rem;">
+                        <span class="logo-text">ASI</span>
+                        <span class="logo-subtitle">LAB</span>
+                    </a>
+                </div>
+                <p class="footer-text">Advancing artificial intelligence beyond current limits.</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="challenges.html">Challenges</a>
+                    <a href="#">Publications</a>
+                    <a href="#">Team</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ASI Lab. Pushing boundaries, exploring frontiers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
